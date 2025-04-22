@@ -3,8 +3,20 @@ body {
     -moz-writing-mode: vertical-rl;
     -ms-writing-mode: vertical-rl;
     -writing-mode: vertical-rl;
+    font-family: 'default-font'
     }
 
-.fit-picture img {
+.fit-picture {
     height: 100vw;
+    width: auto;
 }
+
+@font-face {
+    font-family: 'default-font'; /* 任意のフォント名 */
+    src: url('fonts/ninjal_hentaigana.woff2') format('woff2'),
+         url('fonts/ninjal_hentaigana.woff') format('woff'),
+         url('fonts/ninjal_hentaigana.ttf') format('truetype');
+    font-weight: normal; /* 必要に応じて指定 */
+    font-style: normal;  /* 必要に応じて指定 */
+    font-display: swap; /* フォントの表示方法を制御 (推奨) */
+  }
