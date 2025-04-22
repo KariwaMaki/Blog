@@ -4,3 +4,7 @@ body {
     -ms-writing-mode: vertical-rl;
     -writing-mode: vertical-rl;
     }
+
+.fit-image img {
+    height: 100%;
+}
